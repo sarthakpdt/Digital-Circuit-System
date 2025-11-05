@@ -58,7 +58,21 @@ If thresholds are crossed, the system **alerts the user instantly**.
 | HTML/CSS/JS (Optional) | Web-Based Monitoring Dashboard |
 
 ---
+## ✅ Results
 
+The Indoor Air Quality Monitoring System successfully measured and analyzed real-time environmental parameters including temperature, humidity, and dust concentration. When the sensor readings crossed the predefined threshold values, the system generated instant alerts, enabling timely intervention to maintain a healthy indoor atmosphere.
 
-if __name__ == "__main__":
-    main()
+The wireless data transmission worked efficiently, showing continuous live readings at the user-defined time intervals. The alert mechanism accurately identified abnormal environmental conditions such as:
+
+- High Temperature
+- High Humidity Levels
+- Increased Dust/Particulate Concentration (Poor Air Quality)
+
+This demonstrated that the system can actively monitor indoor spaces such as homes, classrooms, offices, and laboratories, and notify occupants of potential air quality risks. The prototype can be further extended to control ventilation systems or trigger automated responses such as activating air purifiers or sending SMS and mobile notifications.
+
+Overall, the project proved to be:
+- **Reliable** in real-time monitoring  
+- **Accurate** in environmental sensing  
+- **Scalable** for smart-home / IoT integration  
+- **Effective** in improving indoor safety and health conditions
+
