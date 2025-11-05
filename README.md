@@ -1,1 +1,64 @@
-# Digital-Circuit-System
+# Indoor Air Quality Monitoring System using Wireless Sensor Network
+
+This project focuses on monitoring indoor air quality using wireless sensor technology.  
+The system continuously measures **Temperature**, **Humidity**, and **Dust Concentration** and sends the data wirelessly to a monitoring unit. If any reading exceeds the safe limit, the system generates alerts to ensure timely safety actions.
+
+---
+
+## 📌 Project Objective
+To design and implement a digital indoor air monitoring system that:
+- Collects environmental data using sensors
+- Transmits data wirelessly through a sensor network
+- Checks air quality in real-time
+- Alerts the user when air quality becomes unsafe
+
+---
+
+## 🏛 System Overview
+
+Most people spend the majority of their time indoors. Pollutants like dust, smoke, and chemicals can affect breathing and cause long-term health issues.  
+This monitoring system helps detect harmful indoor air conditions early by using:
+
+- **Wireless Sensors** to collect real-time environmental data  
+- **Microcontroller Unit (MCU)** for processing  
+- **Wireless Transceiver Module** for data transmission  
+- **Monitoring Interface / Console Output** for user visibility  
+
+If thresholds are crossed, the system **alerts the user instantly**.
+
+---
+
+## 🧠 Key Features
+
+| Feature | Description |
+|--------|-------------|
+| Real-time Monitoring | Continuously measures temperature, humidity, and dust concentration |
+| Wireless Data Transfer | Sensor data is transmitted over a wireless transceiver |
+| Threshold Alerts | Alerts user when values exceed the safe range |
+| Custom Threshold Input | Users can set their own safe value limits |
+| Adjustable Time Interval | Data refresh interval is user-defined |
+
+---
+
+## 🛠 Hardware Components Used
+- Wireless Transceiver Module (nRF24L01 or equivalent)
+- Microcontroller (C8051 / STM32 Cortex-M3)
+- Temperature and Humidity Sensor
+- Dust / Air Quality Sensor
+- Power Supply Module (Battery/Adaptor)
+- Buzzer or Alarm Module (optional)
+
+---
+
+## 💻 Software Used
+| Software | Purpose |
+|---------|---------|
+| Python | Data Simulation, Processing & Alerting |
+| MySQL (Optional) | Data Logging and Storage |
+| HTML/CSS/JS (Optional) | Web-Based Monitoring Dashboard |
+
+---
+
+
+if __name__ == "__main__":
+    main()
